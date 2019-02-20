@@ -1,0 +1,62 @@
+.App {
+  width: calc(100% - 400px);
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+.bgGrey {
+  min-width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: solid 3px black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.bgActive {
+  border-color: blue;
+}
+
+.Box{
+  height: 200px;
+}
+
+.BoxGreen{
+  background-color: green;
+}
+.BoxPink{
+  background-color: pink;
+}
+.BoxYellow{
+  background-color: yellow;
+}
+
+.Right {
+  min-width: 300px;
+  height: 600px;
+}
+
+.RightTop {
+  height: 200px;
+  background-color: black;
+}
+.RightCenter {
+  height: 200px;
+  background-color: yellow;
+}
+.RightBottom {
+  height: 200px;
+  background-color: green;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
